@@ -1,0 +1,6 @@
+pretrained model
+colorization_release_v2.caffemodel
+colorization_deploy_v2.prototxt
+points
+pts_in_hull.npy
+project demo.mp4
