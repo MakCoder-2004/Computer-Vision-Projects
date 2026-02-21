@@ -1,0 +1,7 @@
+# Ignore videos and model weights
+video.mp4
+output.mp4
+models/
+__pycache__/
+*.pyc
+
