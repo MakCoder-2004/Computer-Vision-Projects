@@ -46,9 +46,7 @@ for t in text:
     text_org = (top_left[0] + 5, top_left[1] - 5)
     cv2.putText(image, text, text_org, font, font_scale, (0,0,0), thickness, cv2.LINE_AA)
 
-# Display using matplotlib instead of cv2.imshow
-image_rgb = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-plt.imshow(image_rgb)
-plt.axis('off')
-plt.title("Text Detection")
-plt.show()
+# Display using OpenCV instead of matplotlib
+cv2.imshow("Text Detection", image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
