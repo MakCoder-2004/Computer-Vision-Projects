@@ -1,4 +1,5 @@
-﻿Car Occurrence Model/model/car_occurrence_model.keras
+﻿ .idea/
+Car Occurrence Model/model/car_occurrence_model.keras
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

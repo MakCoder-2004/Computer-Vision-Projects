@@ -1,3 +1,4 @@
+ .idea/
 # Ignore large output video files
 data/output/out.mp4
 # Byte-compiled / optimized / DLL files
