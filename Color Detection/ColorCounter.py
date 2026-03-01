@@ -41,7 +41,7 @@ def detect(color, capture):
         if not success:
             break
 
-        # Optional: Blur the frame to reduce noise
+        # Blur the frame to reduce noise
         blurred = cv2.GaussianBlur(frame, (7, 7), 0)
 
         # Convert the captured frame from BGR to HSV color space
@@ -77,9 +77,9 @@ def detect(color, capture):
 # Main
 #--------
 if __name__ == "__main__":
-    print("++++++++++++++++++++++++++++++++++++++++")
-    print("    Color Detection From Your Camera    ")
-    print("++++++++++++++++++++++++++++++++++++++++"+"\n")
+    print("+++++++++++++++++++++++")
+    print("    Color Detection    ")
+    print("+++++++++++++++++++++++"+"\n")
 
     print("Write the RGB color value you want to detect (e.g., 255,0,0 for red):")
     color_input = input()

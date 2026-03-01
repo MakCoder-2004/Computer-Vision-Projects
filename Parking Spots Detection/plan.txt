@@ -1,0 +1,12 @@
+# Plan for Car Detection Model Development and Deployment :-
+------------------------------------------------------------
+1. Gathering training data for the model that will predict the occurrence of cars ✅
+2. Creating the training notebook using a pre-trained model -> ResNet50 ✅
+3. Ensuring that the model is accurate ✅
+4. Exporting the model and use it  ✅
+5. Creating a script that will use the model to predict the occurrence of cars in real time ✅
+6. Testing the script in real time and ensuring that it works ✅
+7. Deploying the script to a server or edge device for real-time predictions ✅
+8. Monitoring the performance of the model and making improvements as necessary ✅
+9. Documenting the entire process and creating a user guide for the script ✅
+10. Sharing the project on GitHub and promoting it to the community ✅
