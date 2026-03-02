@@ -1,0 +1,18 @@
+# Face Mask Detection Dataset Configuration for YOLO
+
+# Dataset root directory (relative to this config file)
+path: D:\Programming\Projects\AI - ML Projects\Computer Vision Projects\Face Mask Detection\dataset
+
+# Train and validation image directories (relative to 'path')
+train: train/images
+val: val/images
+
+# Number of classes
+nc: 3
+
+# Class names
+names:
+  0: mask_weared_incorrect
+  1: with_mask
+  2: without_mask
+

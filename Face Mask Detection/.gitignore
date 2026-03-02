@@ -1,0 +1,253 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+models/*.pt
+models/*.onnx
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# IDEs
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+
+# Dataset files (large files)
+# Uncomment if you don't want to track dataset
+data/images/
+data/annotations/
+data/labels/
+dataset/train/images/
+dataset/train/labels/
+dataset/val/images/
+dataset/val/labels/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+*.7z
+archive.zip
+
+# Model files (can be large)
+# Uncomment if you want to track models
+# models/*.pt
+# models/*.onnx
+models/runs/
+runs/
+
+# YOLO training outputs
+runs/
+exp/
+detect/
+train/
+val/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~.nib
+
+# Logs
+*.log
+logs/
+
+# Videos and test files
+*.mp4
+*.avi
+*.mov
+*.mkv
+test_video.*
+output_video.*
+
+# Large media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+# Exception: Keep sample images if you have a specific folder
+!samples/*.jpg
+!samples/*.png
+!assets/*.jpg
+!assets/*.png
+
+# Config overrides
+config.local.yaml
+*.local.yaml
+
+# Notebook outputs
+*.nbconvert.ipynb
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# Weights and checkpoints
+weights/
+checkpoints/
+*.weights
+*.pth
+*.ckpt
+
+# Results and experiments
+results/
+experiments/
+outputs/
+
