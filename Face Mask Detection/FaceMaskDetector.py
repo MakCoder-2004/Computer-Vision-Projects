@@ -11,9 +11,8 @@ model = YOLO("models/best.onnx", task='detect')
 # Model Labels
 # ------------------------------------
 label_map = {
-    0: "mask_worn_incorrect",      # mask_worn_incorrect → mask_worn_incorrect
+    0: "no_mask",      # mask_worn_incorrect → mask_worn_incorrect
     1: "mask",                     # with_mask → mask
-    2: "no_mask"                   # without_mask → no_mask
 }
 
 # ------------------------------------
@@ -51,8 +50,11 @@ while True:
         # Map to simplified label
         label = label_map.get(class_id, "unknown")
 
-        # Choose color based on label (Green for mask, Red for no_mask)
-        color = (0, 255, 0) if label == "mask" else (0, 0, 255)
+        # Choose color based on label (green=mask, red=no_mask, magenta=incorrect)
+        if label == "mask":
+            color = (0, 255, 0)
+        else:
+            color = (0, 0, 255)
 
         # Draw bounding box
         cv2.rectangle(annotated_frame, (x1, y1), (x2, y2), color, 2)

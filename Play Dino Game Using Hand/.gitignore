@@ -1,0 +1,38 @@
+.venv/
+.env/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Python packaging / build
+build/
+dist/
+*.egg-info/
+
+# PyInstaller
+*.spec
+
+# Camera / debug outputs
+*.mp4
+*.avi
+
+# Model cache (if any future work)
+model_cache/
+
+Python Version/game.spec
+Python Version/dist
+Python Version/build
+Python Version/build.bat
